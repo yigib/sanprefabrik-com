@@ -1,0 +1,10 @@
+{
+    "name": "Cem Celal Altınay",
+    "image" : "img/cem-celal-altinay.png",
+    "bio": "İstanbul Silivri doğumlu, toptan ve perakende ticaretle uğraşan iş adamı.",
+    "social": [
+        { "linkedin": "https://www.linkedin.com/in/cemcelalaltinay" },
+        { "instagram": "https://www.instagram.com/cemcelalaltinay/" },
+        { "github": "https://github.com/cemcelalaltinay" }
+    ]
+}
