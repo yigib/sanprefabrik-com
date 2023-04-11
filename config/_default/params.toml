@@ -17,7 +17,7 @@ mainSections = ["blog"]
 
 disableImageOptimization = false
 
-defaultBackgroundImage = "/img/strafor-asmolen-gorsel.jpg"
+defaultBackgroundImage = "/img/strafor-asmolen-gorsel.webp"
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -35,7 +35,7 @@ smartTOCHideUnfocusedChildren = true
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "/img/strafor-asmolen-gorsel.jpg" # used in: hero, and card
+  homepageImage = "/img/strafor-asmolen-gorsel.webp" # used in: hero, and card
   showRecent = true
   showRecentItems = 10
   showMoreLink = true
