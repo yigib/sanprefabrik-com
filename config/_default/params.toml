@@ -123,6 +123,8 @@ smartTOCHideUnfocusedChildren = true
 #[fathomAnalytics]
   # site = "ABC12345"
   # domain = "llama.yoursite.com"
+  
+#googleAnalytics = "GTM-TVBTPJR"
 
 #[buymeacoffee]
 #  identifier = "nunocoracao"
