@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /etiketler/
+Sitemap: https://altinaystrafor.com/sitemap.xml
