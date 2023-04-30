@@ -30,7 +30,7 @@ Tavanlar, binanın üstündeki hava koşullarından korunmayı sağlar. Âdeta b
 - Ses yalıtımı sağlanır.
 - Isı yalıtımı için faydalıdır.
 
-<img src="asmolen-nedir.JPG" alt="Asmolen Köpük Nedir?">
+<img src="asmolen-nedir.webp" alt="Asmolen Köpük Nedir?">
 
 **Asmolin Döşeme Nedir?**
 
@@ -133,7 +133,7 @@ Hizmet anlayışımızın temelinde müşterilerimize sunduğumuz ürünlerin ka
 
 Bir firma için önemli ögelerden biri güvenilir olmaktır. Biz de her zaman en iyi hizmeti sunmayı hedeflediğimiz için **70x70x23** boyutlarında özel olarak üretilmiş bu köpük malzemeyi bulundurarak taleplere cevap veriyoruz. Bu kapsamlı hizmetimizi aynı zamanda müşterilerimiz sipariş verdiği andan itibaren süratle karşılıyoruz.
 
-<img src="asmolen-uretim.JPG" alt="Asmolen Köpük Üretimi">
+<img src="asmolen-uretim.webp" alt="Asmolen Köpük Üretimi">
 
 
 **Asmolen Köpük Fiyatları Uygun Mu?**

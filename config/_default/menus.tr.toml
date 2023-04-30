@@ -14,21 +14,26 @@
   name = "Anasayfa"
   pageRef = "/"
   weight = 10
+  
+[[main]]
+  name = "Asmolen"
+  pageRef = "asmolen"
+  weight = 20
 
 [[main]]
   name = "Firma Bilgileri"
   pageref = "firma-bilgileri"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Blog"
   pageRef = "blog"
-  weight = 30
+  weight = 40
 
 [[main]]
   name = "WhatsApp"
   url = "https://api.whatsapp.com/send?phone=905057286950"
-  weight = 40
+  weight = 50
 
 #[[main]]
 #  name = "Examples"
