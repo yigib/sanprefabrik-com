@@ -5,3 +5,6 @@ summary: ""
 showDate: false
 etiketler: [""]
 ---
+
+Telefon numaramız: [0532 379 3160](tel:00905323793160)  
+Detaylı bilgi için arayın.
