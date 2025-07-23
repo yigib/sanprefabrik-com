@@ -1,24 +1,5 @@
 languageCode = "tr"
-languageName = "Turkish"
-displayName = "TR"
-isoCode = "tr"
 weight = 1
-rtl = false
-
-title = "Altınay Strafor/Asmolen"
-logo = "img/altinay-logo.png"
-description = "Altınay Strafor; Strafor, Asmolen, Köpük, Karbon Levha ürünlerinde Edirne, Tekirdağ, İstanbul, Lüleburgaz için güvenilir tedarikçiniz."
+title = "San Prefabrik"
+logo = "img/sanprefabrik-logo.png"
 # copyright = "Copy, _right?_ :thinking_face:"
-
-dateFormat = "2 January 2006"
-
-[author]
-  name = "Cem Celal Altınay"
-  image = "img/cem-celal-altinay.png"
-  headline = "İstanbul Silivri doğumlu, toptan ve perakende ticaretle uğraşan iş adamı."
-  bio = "İstanbul Silivri doğumlu, toptan ve perakende ticaretle uğraşan iş adamı."
-  links = [
-    { linkedin = "https://www.linkedin.com/in/cemcelalaltinay" },
-    { instagram = "https://www.instagram.com/cemcelalaltinay/" },
-    { github = "https://github.com/cemcelalaltinay" },
-  ]

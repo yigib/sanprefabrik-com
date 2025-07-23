@@ -1,5 +1,5 @@
 global:
-  language: "🇧🇩"
+  language: "BN"
 
 article:
   anchor_label: "Anchor"
@@ -24,6 +24,7 @@ article:
   part_of_series: "This article is part of a series."
   part: "Part"
   this_article: "This Article"
+  related_articles: "Related"
 
 author:
   byline_title: "লেখক"
@@ -58,6 +59,7 @@ search:
 sharing:
   email: "ইমেল করুন"
   facebook: "ফেসবুকে শেয়ার করুন"
+  line: "লাইনে শেয়ার করুন"
   linkedin: "লিংকডইনে শেয়ার করুন"
   pinterest: "পিন্টারেস্টে পিন করুন"
   reddit: "রেড্ডিটে জমা দিন"
@@ -65,6 +67,6 @@ sharing:
 
 shortcode:
   recent_articles: "সাম্প্রতিক"
-  
+
 recent:
   show_more: "আরো দেখুন"

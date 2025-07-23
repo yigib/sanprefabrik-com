@@ -12,7 +12,7 @@
 
 - Great! Open a new GitHub pull request with the patch.
 - All development occurs on the `dev` branch and new PRs should be forked from here.
-- The command `npm run example` can be used to test local changes using the example site.
+- The commands `npm run example`, `npm run example:core`, and `npm run example:production` can be used to test local changes using the example site.
 - Ensure the PR description clearly describes the problem and solution. Include the relevant issue number, if applicable.
 - **Before submitting**, check the [coding conventions](#coding-conventions) section below to learn more about coding and commit message expectations.
 
@@ -35,9 +35,9 @@
 - Indent using 2 spaces (soft tabs).
 - Put spaces between list items (ie. `[1, 2, 3]`, not `[1,2,3]`), around operators (ie. `1 + 1`, not `1+1`) and inside go templating tags (ie. `{{< alert >}}`, not `{{<alert>}}`).
 - Avoid code reuse in templates by extracting components into partials.
-- Layout code in a logical manner that prioritises readibility.
+- Layout code in a logical manner that prioritises readability.
 - Add comments when the intent of the code isn't immediately apparent or to break up large blocks of logic.
-- Use relative paths to assets without including the preceeding slash but, when referring to a folder, including a trailing slash (ie. `static/img/`, not `/static/img/` or `/static/img`).
+- Use relative paths to assets without including the preceding slash but, when referring to a folder, including a trailing slash (ie. `static/img/`, not `/static/img/` or `/static/img`).
 - Any static text must be referenced using the `i18n` methods and included in the localisation assets.
 - Commit often, preferring incremental changes rather than bundling everything into a single, large commit.
 
@@ -45,7 +45,7 @@ The project includes a Prettier config that helps to format code in line with th
 
 #### Commit message guidelines
 
-- Use [Gitmoji](https://gitmoji.dev) in commit messages to provide context.
+- Use [Gitmoji](https://gitmoji.dev) in PR messages to provide context.
 - Clearly describe the change with a short summary in the first 72 characters.
 - Place more detailed explanations in paragraphs below the summary, separated by a blank line.
 - Use imperative language (ie. "Fix bug", not "Fixed bug" or "Fixes bug").

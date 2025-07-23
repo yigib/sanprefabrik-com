@@ -16,24 +16,45 @@
   weight = 10
   
 [[main]]
-  name = "Asmolen"
-  pageRef = "asmolen"
+  name = "Hakkında"
+  pageRef = "/hakkinda"
   weight = 20
 
 [[main]]
-  name = "Firma Bilgileri"
-  pageref = "firma-bilgileri"
+  name = "Projeler"
+  pageRef = "/projeler"
   weight = 30
-
+  
 [[main]]
-  name = "Blog"
-  pageRef = "blog"
+  name = "İletişim"
+  pageRef = "/iletisim"
   weight = 40
 
 [[main]]
-  name = "WhatsApp"
-  url = "https://api.whatsapp.com/send?phone=905057286950"
+  name = "Tiny House"
+  pageRef = "/hizmetler/tiny-house"
   weight = 50
+
+[[main]]
+  name = "Prefabrik"
+  pageref = "/hizmetler/prefabrik"
+  weight = 60
+
+[[main]]
+  name = "Konteyner"
+  pageRef = "/hizmetler/konteyner"
+  weight = 70
+  
+[[main]]
+  name = "Blog"
+  url = "/blog"
+  weight = 80  
+
+[[main]]
+  name = "WhatsApp"
+  url = "https://api.whatsapp.com/send?phone=905"
+  weight = 90
+
 
 #[[main]]
 #  name = "Examples"
@@ -76,12 +97,6 @@
 #  weight = 60
 
 #[[main]]
-#  identifier = "mastodon"
-#  pre = "mastodon"
-#  url = "https://masto.ai/@blowfish"
-#  weight = 70
-
-#[[main]]
 #  identifier = "github"
 #  pre = "github"
 #  url = "https://github.com/nunocoracao/blowfish"
@@ -92,7 +107,15 @@
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
- [[footer]]
-   name = "Silivri/İstanbul"
-   pageRef = "/"
+[[footer]]
+   name = "Yeni Mahalle, Türkün Caddesi, No:2 Silivri/İstanbul"
+   pageRef = "hakkinda"
+   weight = 10
+[[footer]]
+   name = "sanprefabrik@gmail.com"
+   pageRef = "mailto:sanprefabrik@gmail.com"
+   weight = 20
+[[footer]]
+   name = "buraya telefon no"
+   pageRef = "tel:00905"
    weight = 10

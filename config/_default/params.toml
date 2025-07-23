@@ -12,19 +12,17 @@ autoSwitchAppearance = true
 enableSearch = false
 enableCodeCopy = false
 
-mainSections = ["blog"]
+mainSections = ["hizmetler"]
 # robots = ""
 
 disableImageOptimization = false
-
-defaultBackgroundImage = "/img/strafor-asmolen-gorsel.webp"
-
+defaultBackgroundImage = "/img/hafif-celik-ev.jpg"
 highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = true
 
 [header]
-  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
+  layout = "fixed-fill" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -34,12 +32,12 @@ smartTOCHideUnfocusedChildren = true
   showScrollToTop = true
 
 [homepage]
-  layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "/img/strafor-asmolen-gorsel.webp" # used in: hero, and card
+  layout = "custom" # valid options: page, profile, hero, card, background, custom
+  homepageImage = "/img/hafif-celik-ev.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 10
-  showMoreLink = true
-  showMoreLinkDest = "blog"
+  showMoreLink = false
+  showMoreLinkDest = "hizmetler"
   cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background
@@ -49,14 +47,13 @@ smartTOCHideUnfocusedChildren = true
   showViews = false
   showLikes = false
   showDateUpdated = false
-  showAuthor = true
+  showAuthor = false
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
-  editURL = "https://altinaystrafor.com"
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = false
@@ -77,8 +74,8 @@ smartTOCHideUnfocusedChildren = true
   layoutBackgroundHeaderSpace = false
   showBreadcrumbs = false
   showSummary = false
-  showViews = true
-  showLikes = true
+  showViews = false
+  showLikes = false
   showTableOfContents = true
   showCards = true
   groupByYear = false
@@ -87,15 +84,15 @@ smartTOCHideUnfocusedChildren = true
   constrainItemsWidth = false
 
 [sitemap]
-  excludedKinds = ["taxonomy","term"]
+  excludedKinds = ["taxonomy","term","etiketler"]
 
 [taxonomy]
   showTermCount = true
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
-  showViews = true
-  showLikes = true
+  showViews = false
+  showLikes = false
   showTableOfContents = true
   cardView = false
 
@@ -103,13 +100,37 @@ smartTOCHideUnfocusedChildren = true
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
-  showViews = true
-  showLikes = true
+  showViews = false
+  showLikes = false
   showTableOfContents = true
   groupByYear = false
   cardView = true
   cardViewScreenWidth = false
   
+[languages.tr]
+  languageCode = "tr"
+  languageName = "Turkish"
+  displayName = "TR"
+  isoCode = "tr"
+  weight = 1
+  rtl = false
+  title = "San Prefabrik"
+# burayı aktifleştiriyorsan languages.tr.toml sil!!!
+#  logo = "img/altinay-logo.png"
+#  description = "San Prefabrik; Prefabrik, Tiny House, Metal Levha, Çelik Konstraksiyon, Tekirdağ, İstanbul, Silivri, Çatalca, için güvenilir üreticiniz."
+  # copyright = "Copy, _right?_ :thinking_face:"
+  dateFormat = "2 January 2006"
+
+[author]
+  name = "San Prefabrik"
+  image = "img/cem-celal-altinay.png"
+  headline = "San prefabrik olarak, yılların teknik ve esnaflık tecrübesi ile hizmet vermeye devam ediyoruz."
+  bio = "Silivri'de yıllardır güvenilir, esnaf kurum."
+  links = [
+    { facebook = "https://www.facebook.com/profile.php?id=100094891414431" },
+    { instagram = "https://www.instagram.com/sanprefabrik/" },
+    { tiktok = "https://www.tiktok.com/@sanprefabrik" },
+  ]
 
 #[firebase]
 #  apiKey = "AIzaSyB5tqlqDky77Vb4Tc4apiHV4hRZI18KGiY"
@@ -125,13 +146,6 @@ smartTOCHideUnfocusedChildren = true
   # domain = "llama.yoursite.com"
   
 #googleAnalytics = "GTM-TVBTPJR"
-
-#[buymeacoffee]
-#  identifier = "nunocoracao"
-#  globalWidget = true
-#  globalWidgetMessage = ""
-#  globalWidgetColor = "#FFDD00"
-#  globalWidgetPosition = "Right"
 
 #[verification]
   # google = ""

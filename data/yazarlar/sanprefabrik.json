@@ -1,0 +1,10 @@
+{
+    "name": "San Prefabrik",
+    "image" : "img/cem-celal-altinay.png",
+    "bio": "Silivri'de yıllardır çalışan güvenilir, esnaf kurum.",
+    "social": [
+    	{ "facebook": "https://www.facebook.com/profile.php?id=100094891414431" },
+    	{ "instagram": "https://www.instagram.com/sanprefabrik/" },
+    	{ "tiktok": "https://www.tiktok.com/@sanprefabrik" }
+    ]
+}
